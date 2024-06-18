@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Port of VSCode’s CSS features to an independent language server",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "repository": "https://github.com/savetheclocktower/css-languageserver",
   "bin": {
     "css-languageserver": "./dist/server.js"
   },
