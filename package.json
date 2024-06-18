@@ -6,12 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "css-languageserver": "./dist/server.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc && node dist/server.js"
+    "dev": "tsc && node dist/server.js",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@types/node": "^20.14.2",
