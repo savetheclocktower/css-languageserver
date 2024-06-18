@@ -1,6 +1,6 @@
 {
   "name": "@savetheclocktower/css-languageserver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Port of VSCode’s CSS features to an independent language server",
   "main": "index.js",
   "repository": "https://github.com/savetheclocktower/css-languageserver",
